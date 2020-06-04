@@ -1,16 +1,15 @@
 const {checkEqual} = require('check-equal')
-
-function abc(){}
-
-function c(){}
+const utils = require('lisa.utils')
+const uType = utils.Type
 
 
-console.log(checkEqual(c,c))
-
-
-
-exports.cache = (fn , options) =>{
-
+const packFn =(fn , options)=>{
+    
 }
+
+exports.cache = (fnOrObject , options) =>{
+    
+}
+
 
 //https://blog.csdn.net/weixin_30929195/article/details/98333586
